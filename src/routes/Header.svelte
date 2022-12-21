@@ -1,14 +1,13 @@
 <script>
 	import { page } from '$app/stores';
 	import logo from '$lib/images/svelte-logo.svg';
-	import github from '$lib/images/github.svg';
+	import github from '$lib/images/github-mark-white.svg';
 </script>
 
 <header>
 	<div class="corner">
-		<a href="https://kit.svelte.dev">
-			<img src={logo} alt="SvelteKit" />
-		</a>
+		<!-- <img src={logo} alt="SvelteKit" /> -->
+		
 	</div>
 
 	<nav>
@@ -32,7 +31,7 @@
 	</nav>
 
 	<div class="corner">
-		<a href="https://github.com/sveltejs/kit">
+		<a href="https://github.com/abiinkunlovescats">
 			<img src={github} alt="GitHub" />
 		</a>
 	</div>
@@ -61,12 +60,14 @@
 		width: 2em;
 		height: 2em;
 		object-fit: contain;
+		
 	}
+	
 
 	nav {
 		display: flex;
 		justify-content: center;
-		--background: rgba(255, 255, 255, 0.7);
+		--background: rgb(50, 54, 62);
 	}
 
 	svg {

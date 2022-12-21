@@ -1,7 +1,5 @@
 <script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
+import Counter from "./Counter.svelte";
 </script>
 
 <svelte:head>
@@ -10,7 +8,7 @@
 </svelte:head>
 
 <section>
-	<h1>
+	<!-- <h1>
 		<span class="welcome">
 			<picture>
 				<source srcset={welcome} type="image/webp" />
@@ -19,10 +17,10 @@
 		</span>
 
 		to your new<br />SvelteKit app
-	</h1>
+	</h1> -->
 
 	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
+		A developer Classic Counter
 	</h2>
 
 	<Counter />
@@ -37,7 +35,7 @@
 		flex: 0.6;
 	}
 
-	h1 {
+	/* h1 {
 		width: 100%;
 	}
 
@@ -55,5 +53,5 @@
 		height: 100%;
 		top: 0;
 		display: block;
-	}
+	} */
 </style>
